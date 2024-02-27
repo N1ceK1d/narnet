@@ -1,0 +1,176 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.logo{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+}
+.logo h1{
+    margin: 0;
+    padding: 10px;
+    font-size: 42px;
+}
+#nameLog{
+    padding: 10px;
+    background-color: rgb(93, 133, 0);
+    color: black;
+}
+.main-window{
+    width: 80%;
+    background-color: rgb(99, 99, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: black;
+}
+nav a:hover{
+    background-color: rgb(93, 133, 0);
+    color: black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 70%;
+    color: white;
+    padding: 10px;
+}
+.content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#destrSess{
+    margin: 10px;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(93, 133, 0);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#destrSess:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.forms-zayavki{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    border: none;
+    font-size: 16px;
+    width: 200px;
+}
+form textarea{
+    resize: none;
+    width: 400px;
+    height: 300px;
+}
+#subInp{
+    background-color: rgb(93, 133, 0);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    font-size: 24px;
+
+}
+#subInp:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.zayavki{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.zayavki input{
+    font-size: 16px;
+    background-color: rgb(93, 133, 0);
+    padding: 5px;
+    width: 200px;
+}
+.zayavki_one{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.zayavki_one p{
+    width: 100%;
+}
+.title_pod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title_pod p{
+    width: 100%;
+    margin: 15px;
+}
+.textAr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textAr h1{
+    font-size: 24px;
+}
+.textAr p{
+    width: 600px;
+}
+.odobrenie{
+    border: 0;
+    margin: 4px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.odobrenie:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

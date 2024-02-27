@@ -1,0 +1,2 @@
+http://192.168.220.16/is2-24/falaleev/narusheniyamnet/page/adminlog.php
+../page/adminlog.php
